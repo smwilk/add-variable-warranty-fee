@@ -1,6 +1,5 @@
 export function run(input) {
-  // Gift card variant id (replace with the variant ID of your own store's gift card)
-  const giftCardVariantId = 'gid://shopify/ProductVariant/49377107542321';
+  const warrantyVariantId = 'gid://shopify/ProductVariant/49377107542321';
 
   return {
     operations: input.cart.lines.map(lineItem => {
@@ -30,7 +29,7 @@ export function run(input) {
                 }
               },
               {
-                merchandiseId: giftCardVariantId,
+                merchandiseId: warrantyVariantId,
                 quantity: 1,
                 price: {
                   adjustment: {

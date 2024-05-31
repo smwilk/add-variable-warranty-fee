@@ -3,7 +3,7 @@
 client_id = "99c3e4b055530a8caf0f2979ad86554f"
 name = "warranty-info"
 handle = "warranty-info"
-application_url = "https://biol-castle-told-graphs.trycloudflare.com"
+application_url = "https://pull-peninsula-temporary-vitamins.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_cart_transforms,write_products"
 
 [auth]
 redirect_urls = [
-  "https://biol-castle-told-graphs.trycloudflare.com/auth/callback",
-  "https://biol-castle-told-graphs.trycloudflare.com/auth/shopify/callback",
-  "https://biol-castle-told-graphs.trycloudflare.com/api/auth/callback"
+  "https://pull-peninsula-temporary-vitamins.trycloudflare.com/auth/callback",
+  "https://pull-peninsula-temporary-vitamins.trycloudflare.com/auth/shopify/callback",
+  "https://pull-peninsula-temporary-vitamins.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
